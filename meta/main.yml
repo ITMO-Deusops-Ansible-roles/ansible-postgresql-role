@@ -1,7 +1,7 @@
 galaxy_info:
-  role_name: ansible_role_openvpn
+  role_name: ansible_openvpn_role
   namespace: acme
-  author: Anna Sheludchenko
+  author: Igor Klyuzhev
   description: PostgreSQL role for Ubuntu
   company: ITMO Univeristy
 
