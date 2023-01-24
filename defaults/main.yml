@@ -29,7 +29,7 @@ postgresql_config_dir: "/etc/postgresql/{{ postgresql_version }}/main"
 postgresql_new_data_dir: /tmp/postgresql
 
 postgresql_users: #[]
-  - name: AnnaSheludchenko
+  - name: IgorKlyuzhev
     password: 1234qwerty
     encrypted: true # defaults to true
     role_attr_flags: SUPERUSER # defaults to not set
@@ -42,14 +42,14 @@ postgresql_users: #[]
     port: 5432 # defaults to 5432
 
 postgresql_databases: #[]
-  - name: AnnaSheludchenkoDb
+  - name: IgorKlyuzhevDb
     encoding: # defaults to not set
     lc_collate: # defaults to not set
     lc_ctype: # defaults to not set
     conn_limit: # defaults to not set
     port: 5432 # defaults to not set
     # users configuration
-    roles: AnnaSheludchenko
+    roles: IgorKlyuzhev
     privs: ALL # defaults to ALL
 
   - name: IvanIvanovDb
