@@ -34,12 +34,6 @@ postgresql_users: #[]
     encrypted: true # defaults to true
     role_attr_flags: SUPERUSER # defaults to not set
     port: 5432 # defaults to 5432
-  
-  - name: IvanIvanov
-    password: qwerty1234
-    encrypted: true # defaults to true
-    role_attr_flags: NOSUPERUSER # defaults to not set
-    port: 5432 # defaults to 5432
 
 postgresql_databases: #[]
   - name: IgorKlyuzhevDb
@@ -50,14 +44,4 @@ postgresql_databases: #[]
     port: 5432 # defaults to not set
     # users configuration
     roles: IgorKlyuzhev
-    privs: ALL # defaults to ALL
-
-  - name: IvanIvanovDb
-    encoding: # defaults to not set
-    lc_collate: # defaults to not set
-    lc_ctype: # defaults to not set
-    conn_limit: # defaults to not set
-    port: 5432 # defaults to not set
-    # users configuration
-    roles: IvanIvanov
     privs: ALL # defaults to ALL
